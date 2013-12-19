@@ -1134,7 +1134,8 @@
               // button config defaults to 20px gray english
               'color': 'gray',
               'localImage': 'en',
-              'height': '20'
+              'height': '20',
+							'debug': true
             },
             'strings': $.a.strings.en,
             'guid': '',
