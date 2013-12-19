@@ -725,10 +725,10 @@
               }
               var bd = $.f.grid(parent, r.data.pins, 'embed_user');
               if (bd) {
-                var hd = $.f.makeHeader(r, parent, 'embed_user');
-                container.appendChild(hd);
+                //var hd = $.f.makeHeader(r, parent, 'embed_user');
+                //container.appendChild(hd);
                 container.appendChild(bd);
-                container.appendChild($.f.makeFooter(parent, 'embed_user', lang));
+                //container.appendChild($.f.makeFooter(parent, 'embed_user', lang));
                 $.f.cssHook(parent, container);
                 $.f.replace(parent, container);
               }
@@ -751,10 +751,10 @@
               }
               var bd = $.f.grid(parent, r.data.pins, 'embed_board');
               if (bd) {
-                var hd = $.f.makeHeader(r, parent, 'embed_board', true);
-                container.appendChild(hd);
+                //var hd = $.f.makeHeader(r, parent, 'embed_board', true);
+                //container.appendChild(hd);
                 container.appendChild(bd);
-                container.appendChild($.f.makeFooter(parent, 'embed_board', lang));
+                //container.appendChild($.f.makeFooter(parent, 'embed_board', lang));
                 $.f.cssHook(parent, container);
                 $.f.replace(parent, container);
               }
